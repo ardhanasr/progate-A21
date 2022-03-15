@@ -1,71 +1,111 @@
 body {
-    margin: 0;
-    font-family: "Lucida Grande";
-  }
-  
-  a {
-    text-decoration: none;
-  }
+  margin: 0;
+  font-family: "Lucida Grande";
+}
 
-  .container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-  
-  /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
-  }
-  
-  /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  .logo {
-    width: 124px;
-    margin-top: 20px;
-  }
-  
-  /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  .header-left {
-    float: left;
-  }
-  
-  /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  .header-right {
-    float: right;
-    background-color: rgba(255, 255, 255, 0.3);
-    transition: all 0.5s;
-  }
-  
-  /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  .header-right:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
+a {
+  text-decoration: none;
+}
 
-  /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-  }
-  
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  footer img {
-    width: 125px;
-  }
-  
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
 /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  footer p{
-    color: #b3aeb5;
-    font-size: 12px;
-  }
-  
-  
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
 /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  footer {
-    padding-top: 30px;
-  }
-  
-  
+.header-left {
+  float: left;
+}
+
+/* Ini dikerjakan oleh Ahmad Agung Masykuri */
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+/* Ini dikerjakan oleh Ahmad Agung Masykuri */
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Ini dikerjakan oleh Ahmad Agung Masykuri */
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+/* Ini dikerjakan oleh Ahmad Agung Masykuri */
+footer img {
+  width: 125px;
+}
+
+/* Ini dikerjakan oleh Ahmad Agung Masykuri */
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+/* Ini dikerjakan oleh Ahmad Agung Masykuri */
+footer {
+  padding-top: 30px;
+}
+
+/* Ini dikerjakan oleh Ardhana Swareska Reswara */
+.hero-section {
+  width: 1170px;
+  padding: 0 15px;
+  display: inline-block;
+  top: 300px;
+}
+
+.top-wrapper {
+  background-image: url(../projectprogate/A21/img/background.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  height: 500px;
+  padding-top: 100px;
+}
+
+.top-wrapper h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.btn-flexible {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.btn-flexible:hover {
+  opacity: 0.8;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+/* Batas akhir yang dikerjakan oleh Ardhana Swareska Reswara */
